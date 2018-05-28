@@ -1,0 +1,119 @@
+		h1,h3,a {
+			font-family: 'Julius Sans One';
+			text-align: center; 
+			margin:5px;
+		}
+		h2 {
+			font-family: 'Crimson Text'; 
+			margin:5px;
+		}
+
+
+		.logo {
+			font-size: 3em;
+			color:  #3366ff;
+		}
+		.name,.title {
+			margin-top: 0px;
+			margin-bottom: 5px;
+		}
+
+		.container {
+			margin-right: 40px;
+			margin-left: 20px;
+
+		}
+
+		.header {
+			padding-top: 20px;
+			display: flex;
+			flex-direction: row;
+			border-bottom:solid;
+		}
+
+		.header-left {
+			align-self: center;
+		}
+
+		.header-right {
+			margin-left: auto;
+			text-align: right;
+			margin-top: 10px;
+		}
+
+		.content {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding-top: 40px;
+		}
+
+		.hero {
+			align-self: center;
+			
+		}
+
+		.featured-items-list {
+			display: flex;
+			padding-bottom: 40px;
+			justify-content: center;
+			align-items:  center;
+		}
+
+		.featured-items {
+			padding-top: 20px;
+			display: flex;
+			flex-direction: column;
+			align-self: center;
+			justify-content: center;
+			margin: auto;
+			
+		}
+
+		.links {
+			font-size: 0.5em;
+		}
+  
+		
+		.title {
+			display: flex;
+			justify-content: center;
+			align-self: center;
+		}
+
+		img {
+			border-radius: 6px;
+			margin-bottom: 5px;
+			
+		}
+
+		@media screen and (max-width: 985px) {
+
+			.featured-items-list,.header {
+				display: flex;
+				flex-wrap: wrap;
+				width: 100%;
+				align-items: center;
+			}
+
+			.header-right,.header-left {
+			text-align: center;
+			justify-content: center;
+			margin:auto;
+			}
+
+			img, body {
+				width: 100%;
+				border-radius: 10px;
+			}
+		}
+
+		@media screen and (min-width: 980px) {
+			
+			.container {
+				margin-left: auto;
+				margin-right: auto;
+				width: 980px;
+			}
+			
+		}
