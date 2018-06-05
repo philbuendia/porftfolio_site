@@ -24,7 +24,7 @@
 
 		}
 
-		.header {
+		header {
 			padding-top: 20px;
 			display: flex;
 			flex-direction: row;
@@ -41,7 +41,7 @@
 			margin-top: 10px;
 		}
 
-		.content {
+		main {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -60,7 +60,7 @@
 			align-items:  center;
 		}
 
-		.featured-items {
+		article {
 			padding-top: 20px;
 			display: flex;
 			flex-direction: column;
@@ -89,7 +89,7 @@
 
 		@media screen and (max-width: 985px) {
 
-			.featured-items-list,.header {
+			.featured-items-list, header {
 				display: flex;
 				flex-wrap: wrap;
 				width: 100%;
@@ -110,7 +110,7 @@
 
 		@media screen and (min-width: 980px) {
 			
-			.container {
+			body {
 				margin-left: auto;
 				margin-right: auto;
 				width: 980px;
